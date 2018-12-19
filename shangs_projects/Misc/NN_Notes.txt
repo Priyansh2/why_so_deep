@@ -1,0 +1,119 @@
+﻿Architectures
+    Feedforward
+        Residual Networks
+        Highway Networks
+        Dense Networks
+        Stochastic Depth Networks
+    Recurrent
+        Gated Recurrent Unit
+        Long Short Term Memory
+        Bidirectionality
+        Attention Mechanisms
+        Sequence to Sequence Models
+        Dynamic Memory Networks
+    Recursive
+        Recursive Neural Tensor Network
+        Recursive LSTMs
+    Convolutional
+        Deformable Convolution
+        Max/Average Pooling
+            Fractional
+        1x1 Bottleneck Layers
+        Inception Blocks
+        Attention Modules
+            Faster Region-Based CNN
+    Siamese Networks
+    Embeddings and Data Reduction
+        Autoencoders
+            Denoising
+            Sparse
+            Variational
+        Word2vec
+            Doc2Vec
+            GloVe
+    Reinforcement
+        Deep Q Learning
+    Generative
+        Variational Autoencoders
+        Generative Adversarial Networks
+            Wasserstein GANs
+    Semi-Supervised
+        Autoencoder Pretraining
+            Language Model Pretraining for RNNs
+        Ladder Networks
+        GANs
+    Multitask
+        Cross-Stitch Networks
+        Joint Many-Task Models
+    Uncertainty Quantification
+        Bayesian Neural Networks
+        Dropout
+        Temperature Scaling
+
+Activation Functions
+    sigmoid
+    tanh
+    Rectified Linear Units
+        Leaky ReLUs
+    Exponential Linear Units
+        SELUs
+    maxout
+    softmax
+
+Cost Functions
+    squared error
+    cross entropy
+    max margin
+    contrastive loss
+    center loss
+    triplet loss
+   
+Gradient Descent
+    batch, minibatch, online
+    momentum
+    rprop and rmsprop
+    adagrad and adadelta
+    adam and adamax
+   
+    Newton's Method
+    Limited Memory Broyden–Fletcher–Goldfarb–Shanno Algorithm
+    Hessian Free Optimization and Conjugate Gradients
+   
+Preventing Overfitting
+    Add More Data
+        Bootstrapping, Patch Selection (for images), and Synthetic Data
+    Use a Simpler Model
+    Early Stopping based on Validation Set Accuracy
+    L1/L2 Regularization
+    Add Gaussian Noise to Intpus or Weights (Adversarial Perturbations)
+    Average Different Models (e.g. Boosting/Bagging)
+    Dropout Regularization
+    Batch and Layer Normalization
+   
+Optimization Tricks
+    Input Feature Mean/Std Normalization
+    Xavier Weight Initialization Based on Fan-In/Fan-Out
+    Orthogonal Weight Initialization or Identity Matrix Initialization
+    Batch Normalization and Layer Normalization
+    Word Vector Initialization for NLP Applications
+    Gradient Clipping for Recurrent NNs
+    Scheduled Sampling for Sequence Prediction Tasks
+    Generatively pre-train deep nets using autoencoding layers
+    
+Distributed Computing and GPU Optimization
+    Model Parallelism
+    Data Parallelism
+    Downpour SGD
+    Elastic Averaging SGD
+    Delay Compensation SGD
+  
+Other Applications
+    Feature Reduction and Selection
+    Predicting Input Similarity By Comparing Learned Feature Layers
+
+NN Libraries and Tools
+    tensorflow
+    microsoft cntk
+    caffe 2
+    pytorch
+    mxnet
