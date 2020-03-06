@@ -1,0 +1,6 @@
+keras==2.0.4
+librosa==0.5
+numpy
+future
+matplotlib
+
